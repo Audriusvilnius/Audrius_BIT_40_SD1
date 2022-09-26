@@ -1,0 +1,24 @@
+{
+  "name": "audrius_bit_40_sd1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dead-server --port=4002 --host=localhost",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Audriusvilnius/Audrius_BIT_40_SD1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Audriusvilnius/Audrius_BIT_40_SD1/issues"
+  },
+  "homepage": "https://github.com/Audriusvilnius/Audrius_BIT_40_SD1#readme",
+  "devDependencies": {
+    "dead-server": "^1.0.6"
+  },
+  "description": ""
+}
