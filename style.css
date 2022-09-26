@@ -1,0 +1,35 @@
+body {
+    background-color: #e0e0e0;
+    color: #898989;
+}
+
+.connteiner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* grid-template-rows: repeat(2, auto-fit); */
+    padding: 50px 45px;
+}
+
+.image {
+    width: 300px;
+    margin-left: auto;
+    margin-right: 20px;
+    /* border: solid 1px blue; */
+}
+
+.colum {
+    grid-template-columns: repeat(1, minmax(300px, 1fr));
+    grid-template-rows: repeat(2, auto-fit);
+    align-self: end;
+}
+
+.message_0 {
+    font-size: 300%;
+    font-family: Cambria;
+    font-weight: bold;
+}
+
+.message_1 {
+    font-family: Cambria;
+    font-weight: bold;
+}
