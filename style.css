@@ -1,8 +1,7 @@
 
-@media screen and (max-width: 800px){
-
-    
+@media screen and (max-width: 600px){   
 }
+
 
 body {
     background-color: #e0e0e0;
@@ -11,26 +10,27 @@ body {
 
 .connteiner {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     /* grid-template-rows: repeat(2, auto-fit); */
     padding: 50px 45px;
 }
 
 .image {
-    width: 300px;
-    margin-left: auto;
-    margin-right: 20px;
+    width:calc(100% - 30%);
+    margin-right: calc(50% - 300px);
+   
+    
 }
 
 .colum {
     display: grid;
-    grid-template-columns: repeat(1, minmax(300px, 1fr));
+    grid-template-columns: repeat(1, minmax(250px, 1fr));
     grid-template-rows: repeat(2, auto-fit);
     align-self: end;
 }
 
 .message_0 {
-    font-size: 300%;
+    font-size: calc(300% - 30%);
     font-family: Cambria;
     font-weight: bold;
 }
